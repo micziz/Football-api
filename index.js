@@ -5,6 +5,10 @@ app.get("/api/v1/:league/:club", async (req, res) => {
     res.json(dataImport["default"])
 })
 
+app.get("/", (req, res) => {
+    res.sendFile("./index.html", { root: __dirname })
+})
+
 app.listen(3000);
 
 module.exports = app

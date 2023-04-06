@@ -7,6 +7,7 @@ module.exports = {
         "Los Vikingos (The Vikings)",
         "La Casa Blanca (The White House)"
     ],
+    ground: "Santiago Bernabeu",
     honours: {
         laLiga: 36,
         copaDelRey: 19,
